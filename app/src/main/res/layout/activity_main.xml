@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84D588"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/menuLin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="8"
+            android:orientation="horizontal"
+            android:rowCount="8">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bush"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bush"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/weed"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ground1"
+                android:layout_rowWeight="1"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/weed"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tree"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:src="@drawable/tree" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rock"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1" />
+
+        </GridLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainFrame">
+
+        <ImageView
+            android:id="@+id/watering"
+            android:layout_width="0dp"
+            android:src="@drawable/watering_can"
+            android:layout_height="70dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/sun"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sun"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/finger"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/finger"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/sack"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sack"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
