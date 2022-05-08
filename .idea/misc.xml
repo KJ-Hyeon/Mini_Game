@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_ground.xml" value="0.221875" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2984375" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_seed.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/drawable/ic_tomato_2.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_tomato_3.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_tomato_4.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_tomato_5.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/ic_tomato_6.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/timer_background.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.182518115942029" />
       </map>
     </option>
   </component>
